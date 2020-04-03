@@ -26,7 +26,7 @@ class DiscordBot:
             .click()    # Presses submit
         time.sleep(10)
         self.driver.find_element_by_xpath(  # Types into the Discord Text box "!p daily" and presses enter
-            "/html/body/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/main/form/div/div/div/div[3]/div[2]")\
+            "/html/body/div/div[1]/div/div[2]/div/div/div/div/div[2]/div/main/form/div/div/div/div/div[3]/div[2]")\
             .send_keys("!p daily" + "\n")
         time.sleep(3)
         self.driver.get("https://discordbots.org/bot/pancake/vote")
@@ -35,7 +35,7 @@ class DiscordBot:
         self.driver.execute_script("arguments[0].click();", button)   # Accept Cookies
         time.sleep(4)
         self.driver.find_element_by_xpath(
-            "/html/body/section/article/div[2]/div[2]/div/div/div[2]/span")\
+            "/html/body/section/article/div[2]/div/div/div/div[2]/span")\
             .click()   # Clicks Vote
         time.sleep(2)
         self.driver.find_element_by_xpath(
