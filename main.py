@@ -30,11 +30,10 @@ class DiscordBot:
             .send_keys("!p daily" + "\n")
         time.sleep(3)
         self.driver.get("https://discordbots.org/bot/pancake/vote")
-        time.sleep(10)   # Heads to the voting page for the Pancakes
-        self.driver.find_element_by_xpath(
-            "/html/body/div[5]/div[1]/div/div/div[4]/button[2]")\
-            .click()   # Accept Cookies
-        time.sleep(3)
+        time.sleep(12)   # Heads to the voting page for the Pancakes
+        button = self.driver.find_element_by_xpath("/html/body/div[5]/div[1]/div/div/div[4]/button[2]")
+        self.driver.execute_script("arguments[0].click();", button)   # Accept Cookies
+        time.sleep(4)
         self.driver.find_element_by_xpath(
             "/html/body/section/article/div[2]/div[2]/div/div/div[2]/span")\
             .click()   # Clicks Vote
@@ -51,6 +50,7 @@ class DiscordBot:
             "/html/body/section/article/div[2]/div[2]/div/div/div[2]/span") \
             .click()  # Click Vote
         time.sleep(5)
+        print("Successfully received daily pancake")
 
 
 DiscordBot(username, password)
