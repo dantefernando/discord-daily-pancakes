@@ -17,7 +17,7 @@ class DiscordBot:
         # WEBDRIVER!!!
         self.driver.get(
             "https://discordapp.com/channels/626436080672964628/671821869707427851")  # Opens up Specific Discord
-        time.sleep(5)
+        time.sleep(10)
         self.driver.find_element_by_xpath("//input[@type=\"email\"]")\
             .send_keys(username1)  # Finds Email box and types username into it
         self.driver.find_element_by_xpath("//input[@type=\"password\"]")\
@@ -30,7 +30,7 @@ class DiscordBot:
             .send_keys("!p daily" + "\n")
         time.sleep(3)
         self.driver.get("https://discordbots.org/bot/pancake/vote")
-        time.sleep(6)   # Heads to the voting page for the Pancakes
+        time.sleep(10)   # Heads to the voting page for the Pancakes
         self.driver.find_element_by_xpath(
             "/html/body/div[5]/div[1]/div/div/div[4]/button[2]")\
             .click()   # Accept Cookies
