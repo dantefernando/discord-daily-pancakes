@@ -50,7 +50,7 @@ class DiscordBot:
             "/html/body/section/article/div[2]/div[2]/div/div/div[2]/span") \
             .click()  # Click Vote
         time.sleep(5)
-        print("Successfully received daily pancake")
+        print("Successfully received daily pancake!")
 
 
 DiscordBot(username, password)
