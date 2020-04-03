@@ -13,7 +13,7 @@ from account import password
 
 class DiscordBot:
     def __init__(self, username1, password1):
-        self.driver = webdriver.Chrome("C:/Users/USER/Downloads/chromedriver.exe") # CHANGE THIS VALUE TO DIR OF WEBDRIVER!!!
+        self.driver = webdriver.Chrome("C:/Users/Fernpe2/Downloads/chromedriver.exe") # CHANGE THIS VALUE TO DIR OF WEBDRIVER!!!
         self.driver.get(
             "https://discordapp.com/channels/626436080672964628/671821869707427851")  # Opens up Specific Discord
         time.sleep(5)
@@ -45,9 +45,6 @@ class DiscordBot:
         self.driver.find_element_by_xpath(
             "/html/body/div/div[1]/div/div[3]/div/div/div[2]/button[2]")\
             .click()    # Clicks Authorize
-        # self.driver.find_element_by_xpath(
-        #     "/html/body/div/div[1]/div/div[3]/div/div/div[2]/button[2]") \
-        #     .click()    # Clicks Vote
         time.sleep(4)
         self.driver.find_element_by_xpath(
             "/html/body/section/article/div[2]/div[2]/div/div/div[2]/span") \
