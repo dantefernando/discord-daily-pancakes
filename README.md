@@ -1,4 +1,4 @@
-# Discord Daily Pancakes Bot v1.0
+# Discord Daily Pancakes Bot v1.45
  A Python bot that logs into Web Discord and gets daily pancakes from Pancake bot (https://pancake.gg/).
  Please note that you much change the following in the program for it to function properly.
  The bot has been adjusted to my setup by default, please note that you will have to:
