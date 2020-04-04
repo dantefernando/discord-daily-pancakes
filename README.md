@@ -12,4 +12,7 @@ That's all it takes for Setting up the program! Enjoy!
 Credit : https://github.com/aj-4/ig-followers
 
 [Update 2 April 2020]
-Released Stable Build
+Released Initial Build
+
+[Update 4 April 2020]
+Fixed Website Bugs (hopefully)
