@@ -1,6 +1,6 @@
 # Made by Dante Fernando 2020
 # Github.com/dantefernando
-# WIP, This code IS NOT PERFECT and was BUILT FOR MY USE!
+# WIP, This code IS NOT PERFECT
 # Feel free to change up the code!
 # Credits: https://github.com/aj-4/ig-followers
 
