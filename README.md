@@ -1,3 +1,9 @@
+# Note: Outdated! Read Below!
+## [April 10th 2020]
+#### discord-daily-pancakes has been merged with [auto-pancakes](https://github.com/dantefernando/auto-pancakes)
+
+
+
 # Discord Daily Pancakes Bot v1.45
  A Python bot that logs into Web Discord and gets daily pancakes from Pancake bot (https://pancake.gg/).
  Please note that you much change the following in the program for it to function properly.
