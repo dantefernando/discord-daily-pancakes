@@ -1,4 +1,4 @@
-# Note: Discontinued Outdated! Merged with auto-pancakes Read Below!
+# Note: Discontinued Outdated! Merged with [auto-pancakes](https://github.com/dantefernando/auto-pancakes) Read Below!
 ## [April 10th 2020]
 #### discord-daily-pancakes has been merged with [auto-pancakes](https://github.com/dantefernando/auto-pancakes)
 **This app is being discontinued.** [Auto-pancakes](https://github.com/dantefernando/auto-pancakes) is a *new and improved version of discord-daily-pancakes.*
